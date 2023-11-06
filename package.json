@@ -1,0 +1,20 @@
+{
+  "name": "tetris-jv",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint .",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^17.1.0",
+    "standard": "^17.1.0",
+    "vite": "^4.4.5"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
